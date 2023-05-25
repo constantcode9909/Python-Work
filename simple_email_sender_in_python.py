@@ -1,5 +1,6 @@
 # python contains a package called email designed to handle email processing
 from email.message import EmailMessage
+# I created the passwordfile to put the password content inside and then import it
 from passwordfile import passwordcontent
 import smtplib
 
